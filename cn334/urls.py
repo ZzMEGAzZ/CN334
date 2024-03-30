@@ -25,4 +25,6 @@ urlpatterns = [
     path("ecommerce/item/<item_id>", ecom_views.item_view),
     path("w09/request", ecom_views.basic_request),
     path("w09/tokenize", ecom_views.tokenize),
+    path("hw09/ssense", ecom_views.ssense),
+    path("hw09/vaja", ecom_views.vaja),
 ]
